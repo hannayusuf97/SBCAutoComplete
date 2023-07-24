@@ -1,6 +1,30 @@
 from movement import get_current_card, move_right, move_left, move_up, move_down
 
 
+def fourthreeonetwo():
+    get_current_card()
+    move_up()
+    get_current_card()
+    move_right()
+    get_current_card()
+    move_right()
+    get_current_card()
+    move_left()
+    get_current_card()
+    move_left()
+    get_current_card()
+    move_left()
+    get_current_card()
+    move_up()
+    get_current_card()
+    move_up()
+    get_current_card()
+    move_right()
+    get_current_card()
+    move_right()
+    get_current_card()
+
+
 def fouronetwonetwo():
     # Goalkeeper
     get_current_card()

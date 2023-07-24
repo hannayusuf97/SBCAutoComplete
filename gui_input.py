@@ -3,7 +3,7 @@ from tkinter import ttk
 
 import pyautogui
 
-from formations import fouronetwonetwo, fourfourtwo
+from formations import fouronetwonetwo, fourfourtwo, fourthreeonetwo
 from leagues import seriea
 from quality import silver_common, bronze_common, gold_common
 from sort import low_to_high
@@ -107,6 +107,9 @@ def fifaSBC():
     elif formation == '4222':
         fourfourtwo()
 
+    elif formation == '4312':
+        fourthreeonetwo()
+
 
 window = tk.Tk()
 quality_var = tk.StringVar(value="Bronze Common")  # Set the default value for quality
@@ -122,7 +125,7 @@ sort_label = tk.Label(window, text="Sort:")
 low_to_high_checkbox = tk.Radiobutton(window, text="Low to High", variable=sort_var, value="Low to High")
 high_to_low_checkbox = tk.Radiobutton(window, text="High to Low", variable=sort_var, value="High to Low")
 formation_label = tk.Label(window, text="Formation:")
-formation_combobox = ttk.Combobox(window, textvariable=formation_var, values=["41212", "442", "4222"])
+formation_combobox = ttk.Combobox(window, textvariable=formation_var, values=["41212", "442", "4222", "4312"])
 league_label = tk.Label(window, text="League:")
 league_combobox = ttk.Combobox(window, textvariable=league_var, values=["Any", "Serie A"])
 start_button = tk.Button(window, text="Start", command=fifaSBC)
