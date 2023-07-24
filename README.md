@@ -26,5 +26,5 @@ Automated FIFA SBC Completion
     To start the application simply... click on the file... To use it properly do the following:
     Start your player choice at the GoalKeeper card, make sure your game runs smoothly then click on the start button.
     Do not press outside the game screen the automation will write on your computer, and it
-    will interfere with the process.
+    will interfere with the process. 
 
